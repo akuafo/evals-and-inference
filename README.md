@@ -1,7 +1,7 @@
 # evals-and-inference
 For a while now, I've been wanting to share more online. I love the model of learning in public. My aspiration is to post openly about the thought processes as well as any knowledge that I might learn.
 
-The topic of my writing is external evalauation of LLMs.  The scope includes identifying quality data sets for benchmarks, synthesizing data, exploring middle layers like RAG and prompt optimization, and understanding how to measure accuracy, consistency, bias and misalignment.  I'll also write about evaluation for specific domains, especially medical AI which has been a focus of mine.
+The focus of my writing is external evalauation of LLMs as black box systems without access to the model architecture. The scope includes exploring evaluation frameworks, identifying quality testing data sets, synthesizing data, middle layers like RAG and prompt optimization, and performance metrics from accuracy and consistency to bias and misalignment.  I'll also write about evaluation for specific domains, especially medical AI which has been a focus of mine.  
 
 If I test a new framework, I'll drop my raw notes and findings in here.
 
