@@ -1,6 +1,0 @@
-site_name: Evals and Inference
-theme:
-    name: simple-blog # readthedocs
-nav:
-  - Home: readme.md
-  - About: about.md
