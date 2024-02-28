@@ -1,0 +1,6 @@
+site_name: Evals and Inference
+theme:
+    name: simple-blog # readthedocs
+nav:
+  - Home: index.md
+  - LLM Evaluation Start: llm-evaluation-start.md
