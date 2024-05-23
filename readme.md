@@ -13,10 +13,11 @@ when ready to publish, copy the files to the githubsite directory
 
 edit the navigation for the new pages:  mkdocs.yml
 
-deploy everything to git (main branch)
+in root directory, deploy with git to main branch
 > git add .
 > git commit -m ''
 > git push origin main
 
-deploy the githubsite directory to github pages
+gh-deploy for deployment to github pages
+> cd githubsite
 > mkdocs gh-deploy
