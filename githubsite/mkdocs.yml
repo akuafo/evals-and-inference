@@ -3,4 +3,5 @@ theme:
     name: simple-blog # readthedocs
 nav:
   - Home: index.md
-  - LLM Evaluation: llm-evaluations.md
+  - Basics of LLM evaluations: llm-evaluations.md
+  - Principles by Clementine: evaluation-principles-by-Clementine.md
