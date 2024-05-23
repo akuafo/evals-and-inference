@@ -1,5 +1,3 @@
-# LLM Evaluations
-
 Perhaps you've read about the landmark court ruling against an airline that had inadequately tested their AI chatbot.  A customer of Air Canada successfully sued the airline for an overcharge due to bad advice from the chatbot.  The impact of this court ruling is making companies think more deeply about the risks of AI services.  The reality is that no one has prepared for this moment.  The evaluation of large language models (LLMs) is a problem that has not yet been solved.
 
 Software development of an LLM application is quite different from anything that has come before.  In the initial steps of application building, the development process might be deceptively easy.  For instance, when creating a simple chatbot, very little programming is required since the LLM accepts human language as the input.  Add a simple basic website template and a few API calls and a fully functional chatbot can be created in an hour or so.

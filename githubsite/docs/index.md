@@ -1,4 +1,3 @@
-# evals-and-inference
 Evaluation of LLMs is really hard.  They don't behave in a predictable way, by definition.  They change with every model training and alignment update.  There are no industry standard practices for evaluating them.  And the evaluation process can be quite different depending on the vertical domain of knowledge.
 
 In the past, when some new software was released or updated, a developer or QA specialist could write tests against precise use cases, and have complete confidence in how well the system performed against those tests.
