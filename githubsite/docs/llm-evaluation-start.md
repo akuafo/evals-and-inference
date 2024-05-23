@@ -37,4 +37,4 @@ There have been many academic papers demonstrating problematic behavior by LLM f
 `Don't put prototype LLM applications directly into production with customers.` Instead, spend some time evaluating it.
 
 ###### Future
-There are a number of software packages available to assist with AI evaluation, including open source libraries, new startup products, and offerings from big tech.  That's a topic for the next writing session.
+There are a number of software packages available to assist with AI evaluation, including open source libraries, new startup products, and offerings from big tech.  That's a topic for another writing session.
