@@ -1,9 +1,11 @@
-Evaluation of LLMs is really hard.  They don't behave in a predictable way, by definition.  They change with every model training and alignment update.  There are no industry standard practices for evaluating them.  And the evaluation process can be quite different depending on the vertical domain of knowledge.
+LLMs don't behave in a predictable way.  They change with every model training and alignment update.  There are no industry standard practices for evaluating them.
 
-In the past, when some new software was released or updated, a developer or QA specialist could write tests against precise use cases, and have complete confidence in how well the system performed against those tests.
+In the typical software development cycle, this is very different.  When traditional software is released or updated, a developer or quality assurance specialist can write tests against precise use cases and have complete confidence in how well the system performed against those tests.
 
-Today, when a non-deterministic LLM is released or updated, the behavior is much more difficult to evaluate.  Any evaluation needs to take into account the probabalistic nature of the reponses and incorporate a number of tasks and domains.   And there are fundamental questions that no one has agreed upon yet, like whether the prompts need to stay the same between evaluations.
+The behavior of an LLM is much more difficult to evaluate.  Any evaluation needs to take into account the probabilistic nature of LLMs and the resulting large variation of possible 'correct' responses.  This challenge is multiplied when assessing LLMs across a number of different tasks and domains of knowledge.
 
-If I test a new framework, I'll drop my raw notes and findings in here.
+This is a repository for my knowledge of the field, as I learn it.
 
-If I see a relevant academic paper, I'll read it and write my notes here.
+If I test a new framework, I'll share my impressions here.
+
+If I see a relevant academic paper or article, I'll write up my notes here.

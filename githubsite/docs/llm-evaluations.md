@@ -1,4 +1,6 @@
-Perhaps you've read about the landmark court ruling against an airline that had inadequately tested their AI chatbot.  A customer of Air Canada successfully sued the airline for an overcharge due to bad advice from the chatbot.  The impact of this court ruling is making companies think more deeply about the risks of AI services.  The reality is that no one has prepared for this moment.  The evaluation of large language models (LLMs) is a problem that has not yet been solved.
+One of the hallmarks of a new technology reaching the mainstream is when it faces its first landmark lawsuit.  In the case of LLMs, it was a case of Air Canada inadequately testing their chatbot.  A customer of Air Canada successfully sued the airline for an overcharge after receiving bad advice about a ticket purchase.  The impact of this court ruling is making companies think more deeply about the risks of AI services.  The reality is that no one has prepared for this moment.  The evaluation of large language models (LLMs) is a problem that has not yet been solved.
+
+It has not yet been decided who is responsible for the quality of the output of a Large Language Model (LLM).  Many would claim the foundational AI model providers like OpenAI should be responsible, while others would point to the companies who integrate LLM technology into their consumer or business offerings.  Meanwhile, the regulatory landscape is still in its infancy.
 
 Software development of an LLM application is quite different from anything that has come before.  In the initial steps of application building, the development process might be deceptively easy.  For instance, when creating a simple chatbot, very little programming is required since the LLM accepts human language as the input.  Add a simple basic website template and a few API calls and a fully functional chatbot can be created in an hour or so.
 
@@ -6,7 +8,7 @@ But the creators of this LLM application will have no easy way to determine if i
 
 The reason is that LLMs are probabilistic.  The randomness in these responses does not lend itself to an easy quantified assessment.  An LLM may provide two different responses if asked the exact same question two times.  And its responses may change and evolve over time.  Even worse, if the LLM vendor makes a scheduled release, or does an unannounced 'internal alignment', the responses for entire categories of prompts can change significantly.
 
-The good news is that there are a growing number of innovative approaches for addressing the hard parts of LLM evaluation.
+The good news is that there are a growing number of innovative approaches for addressing the hard parts of LLM evaluation, a few of which are outlined below.
 
 It might seem obvious, but in order to do an LLM evaluation, it's necessary to have a good data set for testing.  For those who specialize in machine learning (ML) and data science, it's standard practice to start with the process of obtaining the data, preparing the data, and splitting the data into training and test sets.  For non-ML engineers, this process might be part of the learning curve.
 
