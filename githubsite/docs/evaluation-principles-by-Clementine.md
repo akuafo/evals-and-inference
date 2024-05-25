@@ -1,3 +1,7 @@
+May 24th, 2024
+
+<hr>
+
 Today I read a great essay by Clémentine Fourrier who is responsible for LLM evaluation and the leaderboard at Huggingface.
 
 He breaks the field of LLM evaluations into three types:  automated benchmarking, humans as judges, and LLM models as judges.
@@ -26,4 +30,4 @@ Why evaluations are done:
 2) Determine which model is the best in the rankings.
 3) Determine whether a model can perform a specific capability.
 
-Read the full essay at https://huggingface.co/blog/clefourrier/llm-evaluation.
+Read the full essay at [https://huggingface.co/blog/clefourrier/llm-evaluation](https://huggingface.co/blog/clefourrier/llm-evaluation).

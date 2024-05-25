@@ -1,10 +1,10 @@
 LLMs don't behave in a predictable way.  They change with every model training and alignment update.  There are no industry standard practices for evaluating them.
 
-In the typical software development cycle, this is very different.  When traditional software is released or updated, a developer or quality assurance specialist can write tests against precise use cases and have complete confidence in how well the system performed against those tests.
+Contrast this to the traditional software development cycle in which every software release can be evaluated against precise testing scenarios and the developer or quality assurance specialist can have complete confidence in how well the system performed against those tests.
 
-The behavior of an LLM is much more difficult to evaluate.  Any evaluation needs to take into account the probabilistic nature of LLMs and the resulting large variation of possible 'correct' responses.  This challenge is multiplied when assessing LLMs across a number of different tasks and domains of knowledge.
+The LLM evaluation is a new area of exploration.  Every LLM evaluation must take into account the non-deterministic nature of LLMs which can have different outputs even when the starting inputs are the same, making it unpredictable.  An evaluation must be able to manage a degree of variation among 'correct' responses.  This challenge is multiplied when assessing LLMs across different task types and domains of knowledge.
 
-This is a repository for my knowledge of the field, as I learn it.
+This website is a repository for my knowledge of the field, as I learn it.
 
 If I test a new framework, I'll share my impressions here.
 

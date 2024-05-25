@@ -1,3 +1,7 @@
+February 28th, 2024
+
+<hr>
+
 One of the hallmarks of a new technology reaching the mainstream is when it faces its first landmark lawsuit.  In the case of LLMs, it was a case of Air Canada inadequately testing their chatbot.  A customer of Air Canada successfully sued the airline for an overcharge after receiving bad advice about a ticket purchase.  The impact of this court ruling is making companies think more deeply about the risks of AI services.  The reality is that no one has prepared for this moment.  The evaluation of large language models (LLMs) is a problem that has not yet been solved.
 
 It has not yet been decided who is responsible for the quality of the output of a Large Language Model (LLM).  Many would claim the foundational AI model providers like OpenAI should be responsible, while others would point to the companies who integrate LLM technology into their consumer or business offerings.  Meanwhile, the regulatory landscape is still in its infancy.
@@ -6,7 +10,7 @@ Software development of an LLM application is quite different from anything that
 
 But the creators of this LLM application will have no easy way to determine if it's good enough to become customer-facing.  Today's state of the art LLMs do not come packaged with any standard testing method or automated evaluation.  There are no industry protocols and few guidelines.  It's new territory for even the most experienced developers.
 
-The reason is that LLMs are probabilistic.  The randomness in these responses does not lend itself to an easy quantified assessment.  An LLM may provide two different responses if asked the exact same question two times.  And its responses may change and evolve over time.  Even worse, if the LLM vendor makes a scheduled release, or does an unannounced 'internal alignment', the responses for entire categories of prompts can change significantly.
+The reason is that LLMs are non-deterministic.  The variation in these responses does not lend itself to an easy quantified assessment.  An LLM may provide two different responses if asked the exact same question two times.  And its responses may change and evolve over time.  Even worse, if the LLM vendor makes a scheduled release, or does an unannounced 'internal alignment', the responses for entire categories of prompts can change significantly.
 
 The good news is that there are a growing number of innovative approaches for addressing the hard parts of LLM evaluation, a few of which are outlined below.
 
