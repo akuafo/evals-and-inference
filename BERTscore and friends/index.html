@@ -58,8 +58,8 @@
                             nav-link text-gray text-decoration-none" href="..">[Home]</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="
-                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Blog]</a>
+                            <a class=" active 
+                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Posts]</a>
                             <ul class="dropdown-menu">
                                     <!-- block dropdown-menu -->
     <li>
@@ -79,6 +79,16 @@
                                     <!-- block dropdown-menu -->
     <li>
         <a href="../Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="dropdown-item text-decoration-none ">Research Paper on Healthcare Bias in The Pile</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="./" class="dropdown-item text-decoration-none  active ">BERTscore and friends</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../AI-Evaluation-Tools-and-Libraries/" class="dropdown-item text-decoration-none ">AI Evaluation Tools and Libraries</a>
     </li>
 <!-- endblock -->
                             </ul>
@@ -129,22 +139,17 @@
                 <h1 class=" title" id="component-title">BERTscore and friends</h1>
             
         </header>
-        <p><p>May 29th, 2024</p>
+        <p><p>June 2nd, 2024</p>
 <hr />
-<p>4 part article:
-- set up a dead simple evaluation environment of your own
-- generate your own comparison data sets
-- look at the universe of possible eval tools
-    - most were designed for internal ML testing, not black box LLMs
-    - try a few:  intersection, rouge, bertscore
-- llm as a judge
-- analyze with minimal statistics</p>
-<p>Demo walkthrough:
-- Write a few reference questions and gold answers
-- Choose your eval option
-- Run an eval and see a chart of the results
-- Add more questions/answers
-- Run the eval again</p></p>
+<p>A quick project to learn something new...  I had come across the use of Bert Score for LLM evaluation in a few different places and got curious enough to set up my own little eval.  I looked for someone hosting an API for Bert Score so I didn't need to run the whole model locally, but ended up installing PyTorch and found that it actually runs very quick on an Macbook Air M2.</p>
+<p>The whole setup consisted of a python script and Postgres DB to store my prompts and gold answers and keep a log of the scores.</p>
+<p>I did a query to OpenAI for each prompt and scored with 3 different measures:
+- Simple word intersection in Python
+- Bert Score using the bert_score library
+- LLM as a judge (also using OpenAI)</p>
+<p>The prompts are my own hand-crafted set of questions on topics that I know well.  I plan to build this dataset out quite a bit in future.</p>
+<p>I'm finding that using my own data sets is a really intuitive way to get to learn about different LLM evaluation methodologies.</p>
+<p>Next up, I want to run some tests with Infini-gram and Named Entity Recognition (NER).</p></p>
     </article>
 </section>
 <!-- endblock -->
@@ -152,6 +157,19 @@
 
             
                     <!-- block preview -->
+        <div class="row row-cols-md-3 text-center pt-md-3" id="component-preview">
+            <div class="col themed-grid-col">
+                <a rel="prev" href="../Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="nav-link">
+                    <i class="fa fa-arrow-left"></i> Previous
+                </a>
+            </div>
+            <div class="col themed-grid-col"></div>
+            <div class="col themed-grid-col">
+                <a rel="next" href="../AI-Evaluation-Tools-and-Libraries/" class="nav-link">
+                    Next <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
 <!-- endblock -->
             
 

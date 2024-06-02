@@ -1,26 +1,26 @@
 <!doctype html>
 <html>
     <head>
-                <title>Evals and Inference</title>
+                <title>AI Evaluation Tools and Libraries - Evals and Inference</title>
 
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <meta name="description" content="None">
+            
             
             
 
             
-                <link  rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
             
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
                         <script>hljs.initHighlightingOnLoad();</script>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/main.min.css">
-                <script src="search/main.js"></script>
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+                <script src="../search/main.js"></script>
 
             
                 
@@ -54,41 +54,41 @@
         <li class="nav-item" id="component-menu">
             <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class=" active 
-                            nav-link text-gray text-decoration-none" href=".">[Home]</a>
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="..">[Home]</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="
+                            <a class=" active 
                             nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Posts]</a>
                             <ul class="dropdown-menu">
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="llm-evaluations/" class="dropdown-item text-decoration-none ">Basics of LLM Evaluations</a>
+        <a href="../llm-evaluations/" class="dropdown-item text-decoration-none ">Basics of LLM Evaluations</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="evaluation-principles-by-Clementine/" class="dropdown-item text-decoration-none ">Evals by Clementine</a>
+        <a href="../evaluation-principles-by-Clementine/" class="dropdown-item text-decoration-none ">Evals by Clementine</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="evaluation-by-Jason-Wei/" class="dropdown-item text-decoration-none ">Evals by Jason Wei</a>
+        <a href="../evaluation-by-Jason-Wei/" class="dropdown-item text-decoration-none ">Evals by Jason Wei</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="dropdown-item text-decoration-none ">Research Paper on Healthcare Bias in The Pile</a>
+        <a href="../Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="dropdown-item text-decoration-none ">Research Paper on Healthcare Bias in The Pile</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="BERTscore%20and%20friends/" class="dropdown-item text-decoration-none ">BERTscore and friends</a>
+        <a href="../BERTscore%20and%20friends/" class="dropdown-item text-decoration-none ">BERTscore and friends</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="AI-Evaluation-Tools-and-Libraries/" class="dropdown-item text-decoration-none ">AI Evaluation Tools and Libraries</a>
+        <a href="./" class="dropdown-item text-decoration-none  active ">AI Evaluation Tools and Libraries</a>
     </li>
 <!-- endblock -->
                             </ul>
@@ -124,7 +124,7 @@
             <main><!-- block search -->
 <div class="collapse" id="collapseExample">
     <div role="search" class="search-box">
-        <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
             <input type="text" name="q" class="search-query"
             placeholder="Search docs" title="Type search term here" />
         </form>
@@ -136,15 +136,48 @@
     <article>
         <header>
             
-                <h1 class=" title" id="component-title">Home</h1>
+                <h1 class=" title" id="component-title">AI Evaluation Tools and Libraries</h1>
             
         </header>
-        <p><p>LLMs don't behave in a predictable way.  They change with every model training and alignment update.  There are no industry standard practices for evaluating them.</p>
-<p>Contrast this to the traditional software development cycle in which every software release can be evaluated against precise testing scenarios and the developer or quality assurance specialist can have complete confidence in how well the system performed against those tests.</p>
-<p>The LLM evaluation is a new area of exploration.  Every LLM evaluation must take into account the non-deterministic nature of LLMs which can have different outputs even when the starting inputs are the same, making it unpredictable.  An evaluation must be able to manage a degree of variation among 'correct' responses.  This challenge is multiplied when assessing LLMs across different task types and domains of knowledge.</p>
-<p>This website is a repository for my knowledge of the field, as I learn it.</p>
-<p>If I test a new framework, I'll share my impressions here.</p>
-<p>If I see a relevant academic paper or article, I'll write up my notes here.</p></p>
+        <p><p>Here is my list of LLM evaluation frameworks.  It's a work in progress...</p>
+<p><strong>Giskard</strong>
+https://github.com/Giskard-AI/giskard</p>
+<p><strong>ChainForge</strong><br />
+<a href="http://chainforge.ai">Website</a><br />
+<a href="https://arxiv.org/abs/2404.12272">EvalGen Paper</a></p>
+<p><strong>Arthur Bench</strong><br />
+<a href="https://www.arthur.ai/product/bench">Website</a></p>
+<p><strong>Arize - Phoenix Open Source Library</strong><br />
+<a href="https://phoenix.arize.com">Website</a></p>
+<p><strong>BrainTrust Data</strong>
+- <a href="https://www.honeyhive.ai">HoneyHive</a> - Startup based in New York.
+- <a href="https://www.patronus.ai">Patronus</a> - Startup backed by Lightspeed.
+- <a href="https://docs.promptlayer.com">PromptLayer</a> - New York based startup. Visual pipeline builder for evaluations.</p>
+<p><strong>LangSmith</strong><br />
+Spinoff licensed software from Langchain open source.</p>
+<p><strong>Humanloop</strong><br />
+YC-based startup. Recently moved to San Francisco.</p>
+<p><strong>EleutherAI LM Evaluation Harness</strong><br />
+<a href="https://github.com/EleutherAI/lm-evaluation-harness">GitHub Repository</a><br />
+<a href="https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks">List of 60 Evaluations</a></p>
+<p><strong>AI2 WildBench</strong><br />
+<a href="https://t.co/eoSWvyMaLP">Website</a><br />
+We carefully curate a collection of 1024 hard tasks from real users, which cover common use cases such as code debugging, creative writing, and data analysis.<br />
+<a href="https://huggingface.co/spaces/allenai/WildBench">Portal</a></p>
+<p><strong>SuperPipe</strong><br />
+<a href="https://superpipe.ai">Website</a><br />
+<a href="https://www.scharfste.in/evaluation-is-all-you-need-think-like-a-scientist-when-building-ai/">Background</a></p>
+<p><strong>Ragas</strong><br />
+<a href="https://docs.ragas.io/en/stable/">Documentation</a><br />
+Framework for RAG that synthesizes question/answer test data sets based on RAG documents.</p>
+<p><strong>OpenAI Evals Library</strong><br />
+<a href="https://github.com/openai/evals">GitHub Repository</a></p>
+<p><strong>Long Tail of Related Libraries</strong>
+- <strong>String2String</strong>: Open source suite of new and traditional algorithms for string comparison, from Stanford
+- <strong>Instructor</strong> <a href="https://github.com/jxnl/instructor">https://github.com/jxnl/instructor</a>
+- <strong>Fructose</strong>: <a href="https://github.com/bananaml/fructose">GitHub Repository</a> by the founder of banana.dev
+- <strong>Infini-Gram</strong>: <a href="https://infini-gram.io">Website</a>
+- <strong>BERT Score</strong>: <a href="https://github.com/Tiiiger/bert_score">GitHub Repository</a></p></p>
     </article>
 </section>
 <!-- endblock -->
@@ -154,13 +187,13 @@
                     <!-- block preview -->
         <div class="row row-cols-md-3 text-center pt-md-3" id="component-preview">
             <div class="col themed-grid-col">
-                <a rel="prev" class="nav-link disabled">
+                <a rel="prev" href="../BERTscore%20and%20friends/" class="nav-link">
                     <i class="fa fa-arrow-left"></i> Previous
                 </a>
             </div>
             <div class="col themed-grid-col"></div>
             <div class="col themed-grid-col">
-                <a rel="next" href="llm-evaluations/" class="nav-link">
+                <a rel="next" class="nav-link disabled">
                     Next <i class="fa fa-arrow-right"></i>
                 </a>
             </div>
@@ -190,11 +223,11 @@
             
         </div>
 
-            <script>var base_url = '.';</script>
-            <script src="assets/js/jquery-3.3.1.slim.min.js""></script>
-            <script src="assets/js/bootstrap.bundle.min.js""></script>
-            <script src="assets/js/main.min.js""></script>
-                <script src="search/main.js" defer></script>
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="../search/main.js" defer></script>
 
     </body>
 
