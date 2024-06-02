@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-                <title>Evals and Inference</title>
+                <title>Evals by Jason Wei - Evals and Inference</title>
 
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,15 +12,15 @@
             
 
             
-                <link  rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
             
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
                         <script>hljs.initHighlightingOnLoad();</script>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./assets/css/main.min.css">
-                <script src="./search/main.js"></script>
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+                <script src="../search/main.js"></script>
 
             
                 
@@ -55,30 +55,30 @@
             <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="
-                            nav-link text-gray text-decoration-none" href="./.">[Home]</a>
+                            nav-link text-gray text-decoration-none" href="..">[Home]</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="
+                            <a class=" active 
                             nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Blog]</a>
                             <ul class="dropdown-menu">
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="./llm-evaluations/" class="dropdown-item text-decoration-none ">Basics of LLM Evaluations</a>
+        <a href="../llm-evaluations/" class="dropdown-item text-decoration-none ">Basics of LLM Evaluations</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="./evaluation-principles-by-Clementine/" class="dropdown-item text-decoration-none ">Evals by Clementine</a>
+        <a href="../evaluation-principles-by-Clementine/" class="dropdown-item text-decoration-none ">Evals by Clementine</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="./evaluation-by-Jason-Wei/" class="dropdown-item text-decoration-none ">Evals by Jason Wei</a>
+        <a href="./" class="dropdown-item text-decoration-none  active ">Evals by Jason Wei</a>
     </li>
 <!-- endblock -->
                                     <!-- block dropdown-menu -->
     <li>
-        <a href="./Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="dropdown-item text-decoration-none ">Research Paper on Healthcare Bias in The Pile</a>
+        <a href="../Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="dropdown-item text-decoration-none ">Research Paper on Healthcare Bias in The Pile</a>
     </li>
 <!-- endblock -->
                             </ul>
@@ -114,38 +114,59 @@
             <main><!-- block search -->
 <div class="collapse" id="collapseExample">
     <div role="search" class="search-box">
-        <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
             <input type="text" name="q" class="search-query"
             placeholder="Search docs" title="Type search term here" />
         </form>
     </div>
 </div>
 <!-- endblock -->
-    <!-- block search -->
-	<section class="p-md-5 content-search">
-		<article class="search-box">
-			<p></p>
-			<h1 id="search">Search Results</h1>
-			<hr>
+                    <!-- block content -->
+<section class="container post">
+    <article>
+        <header>
+            
+                <h1 class=" title" id="component-title">Evals by Jason Wei</h1>
+            
+        </header>
+        <p><p>June 2nd, 2024</p>
+<hr>
 
-			<form id="content_search" action="search.html">
-				<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-				<input name="q" id="mkdocs-search-query" type="text" class="search-query search_input search-query ui-autocomplete-input"
-					placeholder="Search the Docs" autocomplete="off" autofocus title="Type search term here">
-			</form>
-
-			<div id="mkdocs-search-results" class="search-results" data-no-results-text="No results found">
-				Searching...
-			</div>
-
-		</article>
-	</section>
-    <!-- endblock -->
-
+<p>I recently read this very insightful blog post by Jason Wei who is an AI researcher at OpenAI.</p>
+<h3 id="key-points-from-jason-wei-on-llm-evaluation">Key points from Jason Wei on LLM evaluation</h3>
+<p>The evaluation is the benchmarking data set.</p>
+<p>He previously created two benchmarking data sets that became popular, MGSM and BBH.  For an eval to become popular, it needs to mean something 'significant and easily understandable'.</p>
+<p>A good eval data set should have lots of examples of high quality, but not be too complicated with multiple metrics and subsets.  It shouldn't require complicated infrastructure either.</p>
+<p>It should measure something that is central to intelligence.</p>
+<p>It should be hard enough that it shows relative performance, even while models get more capable.</p>
+<p>LLMs have made evaluations substantially harder with multiple tasks and long responses. </p>
+<p>There is currently no single eval that adequately evaluates LLMs.</p>
+<p>Using human pairing with models, LMSYS, creates subjectivity problems and feel and style can be weighted more heavily than accuracy.</p>
+<p>Model-generated synthetic data sets are becoming more popular for evaluations, and are useful for quick experiments, but it takes a lot of work to create a data set good enough to stand the test of time.</p>
+<p>High quality domain specific eval data sets, e.g. medical and legal, are important and valuable but by their nature will never attain the popularity of a more general test of intelligence.</p>
+<p>Contamination is becoming a big issue.  Eval questions will get shared on the internet.  The alternative is to keep the test set hidden, but that adds complications.</p>
+<p>The AI research community should invest more in evals, even though it is not rewarded as much as modeling work.</p>
+<p>Read the full article at [https://www.jasonwei.net/blog/evals].</p></p>
+    </article>
+</section>
+<!-- endblock -->
             </main>
 
             
                     <!-- block preview -->
+        <div class="row row-cols-md-3 text-center pt-md-3" id="component-preview">
+            <div class="col themed-grid-col">
+                <a rel="prev" href="../evaluation-principles-by-Clementine/" class="nav-link">
+                    <i class="fa fa-arrow-left"></i> Previous
+                </a>
+            </div>
+            <div class="col themed-grid-col"></div>
+            <div class="col themed-grid-col">
+                <a rel="next" href="../Research%20Paper%20on%20Healthcare%20Bias%20in%20The%20Pile/" class="nav-link">
+                    Next <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
 <!-- endblock -->
             
 
@@ -171,11 +192,11 @@
             
         </div>
 
-            <script>var base_url = '.';</script>
-            <script src="./assets/js/jquery-3.3.1.slim.min.js""></script>
-            <script src="./assets/js/bootstrap.bundle.min.js""></script>
-            <script src="./assets/js/main.min.js""></script>
-                <script src="./search/main.js" defer></script>
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="../search/main.js" defer></script>
 
     </body>
 
