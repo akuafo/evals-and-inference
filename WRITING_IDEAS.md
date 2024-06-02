@@ -1,3 +1,8 @@
+
+Add these evals to the 'evals' github project:
+Infini-gram
+Named Entity Recognition (NER)
+
 Immediate fixes:
 increase the final (key) thoughts section to include 4-6 items
 
