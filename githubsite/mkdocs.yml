@@ -3,5 +3,9 @@ theme:
     name: simple-blog # readthedocs
 nav:
   - Home: index.md
-  - Basics of LLM evaluations: llm-evaluations.md
-  - Principles by Clementine: evaluation-principles-by-Clementine.md
+  - Blog:
+      - Basics of LLM Evaluations: llm-evaluations.md
+      - Evals by Clementine: evaluation-principles-by-Clementine.md
+      - Evals by Jason Wei: evaluation-by-Jason-Wei.md
+      - Research Paper on Healthcare Bias in The Pile: Research Paper on Healthcare Bias in The Pile.md
+  
