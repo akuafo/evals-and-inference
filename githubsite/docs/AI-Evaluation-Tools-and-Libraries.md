@@ -2,6 +2,14 @@ Here is my list of LLM evaluation frameworks.  It's a work in progress...
 
 **Giskard**
 https://github.com/Giskard-AI/giskard
+When you run 'scan' with Giskard, it uses built-in detectors.  Most of the detectors use GPT-4, including these vulnerability detectors:
+o Hallucination and Misinformation
+o Harmful Content Generation
+o Prompt Injection
+o Robustness
+o Output Formatting
+o Information Disclosure
+o Stereotypes and Discrimination
 
 **ChainForge**  
 [Website](http://chainforge.ai)  
