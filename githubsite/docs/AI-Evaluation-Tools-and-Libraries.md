@@ -14,6 +14,13 @@ o Stereotypes and Discrimination
 **ChainForge**  
 [Website](http://chainforge.ai)  
 [EvalGen Paper](https://arxiv.org/abs/2404.12272)
+Includes web server with GUI for evaluation flows.  Can run as local server or use hosted version.
+
+**Galileo** (requires sales approval to test)
+They create their own models.
+Evaluate : Rapid Evaluation of Prompts, Chains and RAG systems
+Observe : Real-time Observability for GenAI Apps and Models
+Protect : Real-time Request and Response Interception
 
 **Arthur Bench**  
 [Website](https://www.arthur.ai/product/bench)
