@@ -1,5 +1,8 @@
 Here is my list of LLM evaluation frameworks.  It's a work in progress...
 
+**Inspect**
+https://ukgovernmentbeis.github.io/inspect_ai/
+
 **Giskard**
 https://github.com/Giskard-AI/giskard
 When you run 'scan' with Giskard, it uses built-in detectors.  Most of the detectors use GPT-4, including these vulnerability detectors:
